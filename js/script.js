@@ -31,7 +31,7 @@ else if(eta > 65){
 
 // stampo il prezzo
 if(km && eta){
-    document.getElementById("prezzo").innerHTML = (prezzo).toFixed(2);
+    document.getElementById("prezzo").innerHTML = (prezzo).toFixed(2) + " €";
 }
 else{
     document.getElementById("prezzo").innerHTML = "Non posso calcolare il prezzo finale!";
